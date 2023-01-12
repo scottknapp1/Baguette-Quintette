@@ -1,0 +1,302 @@
+{
+  "player":
+  {
+    "healthy":
+    {
+      "filepath": "/data/knight/knightlong.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 12,
+      "middle": 6,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "damaged1":
+    {
+      "filepath": "/data/knight/knightlongdamaged1.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 12,
+      "middle": 6,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "damaged2":
+    {
+      "filepath": "/data/knight/knightlongdamaged2.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 12,
+      "middle": 6,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "damaged3":
+    {
+      "filepath": "/data/knight/knightlongdamaged3.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 12,
+      "middle": 6,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "swordAttack":
+    {
+      "filepath": "/data/knight/swordAttack.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 32,
+      "height": 32,
+      "gap": 0,
+      "frames": 5,
+      "middle": 5,
+      "frame_interval": 0.08,
+      "scale": 1
+    },
+
+    "drawString":
+    {
+      "filepath": "/data/knight/DrawBow.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 32,
+      "height": 32,
+      "gap": 0,
+      "frames": 5,
+      "middle": 5,
+      "frame_interval": 0.06,
+      "scale": 0.5
+    }
+  },
+
+  "projectile":
+  {
+    "magic":
+    {
+      "filepath": "data/textures/MagicBoltAnimSheet.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 8,
+      "middle": 8,
+      "frame_interval": 0.02,
+      "scale": 0.5
+    },
+
+    "arrow":
+    {
+      "filepath": "data/knight/arrow.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 32,
+      "height": 32,
+      "gap": 0,
+      "frames": 1,
+      "middle": 1,
+      "frame_interval": 0,
+      "scale": 0.4
+    },
+
+    "tusk":
+    {
+      "filepath": "data/textures/TuskRotated.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 8,
+      "middle": 8,
+      "frame_interval": 0.02,
+      "scale": 0.8
+    },
+
+    "potion":
+    {
+      "filepath": "data/textures/GreenPotion.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 16,
+      "height": 16,
+      "gap": 0,
+      "frames": 8,
+      "middle": 8,
+      "frame_interval": 0.4,
+      "scale": 0.9
+    }
+  },
+
+  "melee":
+  {
+    "sprout":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 371,
+      "start_y": 80,
+      "width": 10,
+      "height": 16,
+      "gap": 6,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "teeth":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 371,
+      "start_y": 329,
+      "width": 11,
+      "height": 23,
+      "gap": 5,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "tiny":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 372,
+      "start_y": 20,
+      "width": 9,
+      "height": 12,
+      "gap": 7,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "red":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 372,
+      "start_y": 50,
+      "width": 10,
+      "height": 14,
+      "gap": 6,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    }
+  },
+
+  "mage":
+  {
+    "witch":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 128,
+      "start_y": 138,
+      "width": 15,
+      "height": 22,
+      "gap": 1,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 0.8
+    },
+
+    "wizard":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 130,
+      "start_y": 171,
+      "width": 14,
+      "height": 21,
+      "gap": 2,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 0.8
+    }
+  },
+
+  "teleporter":
+  {
+    "cloaked":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 369,
+      "start_y": 271,
+      "width": 13,
+      "height": 17,
+      "gap": 4,
+      "frames": 2,
+      "middle": 2,
+      "frame_interval": 0.25,
+      "scale": 1
+    }
+  },
+
+  "ranger":
+  {
+    "orc":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 372,
+      "start_y": 206,
+      "width": 11,
+      "height": 18,
+      "gap": 5,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    },
+
+    "orakei":
+    {
+      "filepath": "/data/map/TileSheet.png",
+      "start_x": 372,
+      "start_y": 239,
+      "width": 11,
+      "height": 17,
+      "gap": 5,
+      "frames": 8,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1
+    }
+  },
+
+  "boss":
+  {
+    "bug":
+    {
+      "filepath": "/data/textures/bug.png",
+      "start_x": 0,
+      "start_y": 0,
+      "width": 26,
+      "height": 36,
+      "gap": 0,
+      "frames": 9,
+      "middle": 4,
+      "frame_interval": 0.15,
+      "scale": 1.5
+    }
+  }
+}
